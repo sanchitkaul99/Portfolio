@@ -10,11 +10,12 @@ body {
   flex-direction: column;
   justify-content: space-between;
   flex-wrap: wrap;
-  
+  position:fixed;
   height: 100vh;
   width: 18vw;
   font-family: raleway;
   background:#202020;
+  z-index:3000;
 }
 .sidebar .section .logo{
   text-align: center;
@@ -113,3 +114,17 @@ body {
     border-color: transparent black transparent transparent;
   }
   
+  .menu-padded{
+    width: 82vw;
+    height: 100vh;
+    z-index: 100;
+    padding-left: 18vw;
+  }
+  .fullslider{
+    background: url(..\back1.jpg) no-repeat;
+    background-size: 100% 100%;
+    width:100%;
+    height:100vh;
+    overflow: hidden;
+    position: relative;
+  }
