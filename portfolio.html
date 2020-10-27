@@ -16,25 +16,42 @@
         <!--   This section should be at the top -->
           <div class="section">
             <div class="logo"><img src="C:\Users\Admin\Documents\fyproject\logo.png"></div>
-            <div class="item">Home</div>
-            <div class="item">About</div>
-            <div class="item">Experience</div>
-            <div class="item">Projects</div>
+            <div class="navmenu">
+              <div class="item">Home</div>
+              <div class="item">About</div>
+              <div class="item">Experience</div>
+              <div class="item">Projects</div>
+            </div>
           </div>
         <!--   This section should be at the bottom -->
           <div class="section">
             <div class="item">Contact Me</div>
             <!-- Social icons -->
             <div class="social">
-                 <span class="icon"><a class="facebook" href="#"><i class="fab fa-facebook-f"></i></a></span>
-                 <span class="icon"><a class="twitter" href="#"><i class="fab fa-twitter"></i></a></span>
-                 <span class="icon"><a class="dribbble" href="#"><i class="fab fa-instagram"></i></a></span>
-                 <span class="icon"><a class="linkedin" href="#"><i class="fab fa-linkedin-in"></i></a> </span> 
+                 <span class="icon tooltip"><span value="sakshisingh0520@gmail.com" id="myInput" > <a class="mail" href="#" onclick="myFunction()"><i class="far fa-envelope"></i></a><span class="tooltiptext">Click to copy my email address on your clipboard!</span></span></span>
+                 <span class="icon"><a class="twitter" href="https://twitter.com/SakshiSingh05"><i class="fab fa-twitter"></i></a></span>
+                 <span class="icon"><a class="dribbble" href="https://github.com/sakshisingh0598"><i class="fab fa-github"></i></a></span>
+                 <span class="icon"><a class="linkedin" href="https://www.linkedin.com/in/sakshisingh0598"><i class="fab fa-linkedin-in"></i></a> </span> 
             </div>
             <!-- Social icons close -->
             <div class="item">Question?</div>
           </div>
         </div>
     <!-- Nav bar end -->
+    <!-- Main background -->
+    <div class="fullslider">
+
+    </div>
+    <!-- Main background over -->
+    <!-- scripts -->
+    <script>
+      function myFunction() {
+        var copyText = document.getElementById("myInput");
+        copyText.select();
+        // copyText.setSelectionRange(0, 99999)
+        document.execCommand("copy");
+        alert("Copied the text: " + copyText.value);
+      }
+      </script>
 </body>
 </html>
