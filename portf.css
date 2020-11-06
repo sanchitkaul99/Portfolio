@@ -126,7 +126,7 @@ body {
     background: url(back2.jpg) no-repeat;
     background-size: 100% 100%;
     opacity: 100%;
-    width:100%;
+    width:82vw;
     height:100vh;
     overflow: hidden;
     position: relative;
@@ -137,9 +137,9 @@ body {
     
       position: absolute;
       right: 0;
-      bottom: 1.75vh;
+      bottom: 2.5vh;
       left: 0;
-      margin-left:41vw;
+      margin-left:39vw;
 
   }
   @import url(https://fonts.googleapis.com/css?family=Cabin);
@@ -346,3 +346,37 @@ body {
 }
  
   /* Animation over */
+  /* About Section  */
+.content .about {
+	z-index: 100;
+	padding-left: 18vw;
+	height: 65vh;
+	font-family: raleway;
+	text-align: center;
+	margin: 10px 20px;
+}
+.content .about .heading{
+	font-size: 80px;
+	margin-top: 20px;
+}
+.content .about .about-content{
+	text-align: center;
+	width: 70vw;
+    margin: auto auto;
+}
+.content .about .about-content img{
+	height: 200px;
+	width: 150px;
+	border-radius: 25%;
+}
+.content .about .about-content .heyimg{
+	justify-content: center;
+	margin:10px 20px;
+	float:left;
+}
+.content .about .about-content .hey{
+	width:70vw;
+	height:45vh;
+	text-align: left;
+
+}
